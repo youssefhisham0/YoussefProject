@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>IOU.com</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Century Gothic';
+    }
+    header {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(001.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    ul {
+        float: left;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            border: 1px solid #transparent;
+            transition: 0.4s ease;
+        }
+
+            li a:hover {
+                background-color: #fff;
+                color: #000;
+            }
+    ul li.active a {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .logo img {
+        float: left;
+        width: 150px;
+        height: auto;
+    }
+
+        .main {
+            max-width: 1500px;
+            margin: auto;
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .title h1 {
+            color: #fff;
+            font-size: 70px;
+        }
+
+        .button {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .btn {
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.4s ease;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+</style>
+<body>
+    <header align="right">
+        <div class="main">
+            <div class="logo">
+                <img src="logo.png"
+            </div>
+            <ul type="none">
+                <li class="active"><a href="www.home.com">Home</a></li>
+                <li><a href="www.services.com">Services</a></li>
+                <li><a href="www.categories.com">Categories</a></li>
+                <li><a href="www.aboutus.com">About us</a></li>
+                <li><a href="www.contact.com">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>International Online University</h1>
+        </div>
+        <div class="button">
+            <a href="www.Sign in.com" class="btn">Sign in</a>
+            <a href="www.Apply now.com" class="btn">Apply now</a>
+        </div>
+    </header>
+</body>
+</html>
